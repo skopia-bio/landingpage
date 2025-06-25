@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ocellus-landing/',
+  base: '/ladingpage/',
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),

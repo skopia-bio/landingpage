@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Eye, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,8 +20,11 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-              <Eye className="h-8 w-8 text-ocellus-blue mr-3" />
-              <span className="text-xl font-bold text-ocellus-dark">Ocellus Biotech</span>
+              <img 
+                src="/images/logo-gradiente.png" 
+                alt="Ocellus Biotech Logo" 
+                className="h-8 w-auto"
+              />
             </div>
           </div>
           

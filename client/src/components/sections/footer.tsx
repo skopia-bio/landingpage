@@ -7,8 +7,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <div className="flex items-center mb-4">
-              <Eye className="h-8 w-8 text-ocellus-blue mr-3" />
-              <span className="text-xl font-bold">Ocellus Biotech</span>
+              <img 
+                src="/images/logo-gradiente.png" 
+                alt="Ocellus Biotech Logo" 
+                className="h-8 w-auto mr-3 brightness-0 invert"
+              />
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Empowering the next generation of biomanufacturing with AI-driven cellular intelligence and real-time process optimization.

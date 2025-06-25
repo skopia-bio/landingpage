@@ -1,0 +1,63 @@
+I’m working on improving the landing page for my startup, Ocellus Biotech. The current version is live at https://www.ocellusbiotech.com. Please review the content and structure, and provide actionable feedback based on the following criteria:
+
+1. Copywriting:
+Make the messaging more engaging and clear, suitable for a biotech startup offering advanced, AI-driven solutions. Keep it professional and accessible, without sounding overly corporate or buzzword-heavy.
+
+2. Visual and structural layout:
+Suggest improvements to content hierarchy, UX flow, and how sections could be better organized or designed — especially considering this will be a static site.
+
+3. Clarity of value proposition:
+Is it immediately clear what Ocellus does, who it’s for, and why it matters? Suggest refinements to sharpen our positioning.
+
+4. CTAs (Call to Action):
+Evaluate the effectiveness of current CTAs. Suggest better phrasing, placement, or formatting to drive conversions (contact, demo, sign-up, etc.).
+
+5. Tone and branding alignment:
+Assess whether the tone aligns with a modern, innovative, science-driven brand. Suggest tone improvements to make the brand feel more confident and forward-looking.
+
+⸻
+
+Here is the core content of the current site for your reference:
+
+⸻
+
+Headline & Hero:
+
+Scaling Sustainable Production for a Growing World
+Unlock unprecedented efficiency in biomanufacturing with our digital twin platform, providing actionable, AI-driven insights from cellular analysis.
+
+⸻
+
+Section: The Problem
+
+The Challenge of Scaling Biomanufacturing
+Biomanufacturing holds the key to sustainably meeting the rising demand for food, materials, and medicine. Yet, current production methods lack the real-time optimization needed to scale effectively and reach price parity with the traditional industry.
+
+⸻
+
+Section: Our Approach
+
+Smart Vision
+In today’s Industry 4.0 landscape, we combine advanced microscopy, AI and digital twin modelling. Think of it as having a ‘little eye’ inside your bioreactor, delivering continuous, clear data to your fingertips. Our platform simplifies complex data into actionable insights, enabling you to make informed adjustments, receive instant alerts, and achieve consistent improvements in yield and quality.
+
+⸻
+
+Section: Why Cells Matter
+
+We focus on the cells.
+The cells are the drivers of fermentation. Their images offer a direct window into their health, metabolic activity, and productivity — revealing insights as rich and complex as genomic or metabolomic data. Unlike other datasets, these cellular signatures are available in real-time, providing a unique opportunity for immediate process optimization. This data is challenging to interpret — and that’s what our AI is for.
+
+⸻
+
+CTA Footer:
+
+The next industrial revolution is here, and biology is leading the way. Contact us to explore how Ocellus can give you the vision needed to drive innovation and scale.
+
+⸻
+
+Additional Context:
+	•	This will be hosted as a static site.
+	•	Please provide clear suggestions, not just general advice.
+	•	You may rewrite copy or propose new layout structures where needed.
+
+(Optional: Please also provide SEO suggestions for relevant keywords like “AI biomanufacturing”, “cell analysis platform”, “fermentation optimization”, “digital twin biotech”, etc.)

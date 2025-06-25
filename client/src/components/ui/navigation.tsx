@@ -5,6 +5,7 @@ import { Menu } from "lucide-react";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
+  const base = import.meta.env.BASE_URL;
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -21,7 +22,7 @@ export default function Navigation() {
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
               <img 
-                src="/images/logo-gradiente.png" 
+                src={`${base}images/logo-gradiente.png`}
                 alt="Ocellus Biotech Logo" 
                 className="h-8 w-auto"
               />

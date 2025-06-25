@@ -1,6 +1,8 @@
 import { Eye } from "lucide-react";
 
 export default function Footer() {
+  const base = import.meta.env.BASE_URL;
+  
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -8,7 +10,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center mb-4">
               <img 
-                src="/images/logo-gradiente.png" 
+                src={`${base}images/logo-gradiente.png`}
                 alt="Ocellus Biotech Logo" 
                 className="h-8 w-auto mr-3 brightness-0 invert"
               />

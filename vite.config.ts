@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ladingpage/',
+  base: 'https://ocellus-bio.github.io/ladingpage/',
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),

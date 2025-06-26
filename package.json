@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && cp -r dist/* . && git add . && git commit -m 'Deploy to GitHub Pages' && git push origin main"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -68,6 +69,7 @@
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.2",
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.17",
     "typescript": "5.6.3",

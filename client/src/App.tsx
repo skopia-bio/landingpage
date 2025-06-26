@@ -8,14 +8,16 @@ import NotFound from "@/pages/not-found";
 
 // Custom hook to handle base URL
 const useBasename = (base: string): BaseLocationHook => {
-  return (...args: any[]): [string, (path: string, ...args: any[]) => any] => {
+  return () => {
     const currentLocation = window.location.pathname;
     const path = currentLocation.startsWith(base) 
       ? currentLocation.slice(base.length) || "/" 
       : currentLocation;
 
-    const navigate = (to: string, ...args: any[]) => {
-      window.history.pushState(null, "", base + to);
+    const navigate = (to: string) => {
+      const newPath = to === "/" ? base : `${base}${to}`;
+      window.history.pushState(null, "", newPath);
+      return newPath;
     };
 
     return [path, navigate];
@@ -37,7 +39,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <Router base={base} hook={useBasename(base)}>
+        <Router hook={useBasename(base)}>
           <Toaster />
           <AppRouter />
         </Router>

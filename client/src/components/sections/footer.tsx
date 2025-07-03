@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 SKOPIA Biosystems. All rights reserved. | Privacy Policy | Terms of Service</p>
+          <p>&copy; 2024 SKOPIA Biosystems. All rights reserved. | Privacy Policy | Terms of Service</p>
         </div>
       </div>
     </footer>

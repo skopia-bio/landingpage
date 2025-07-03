@@ -56,9 +56,9 @@ export default function Hero() {
           </div>
           <div className="lg:col-span-5 mt-12 lg:mt-0">
             <img
-              src="https://images.unsplash.com/photo-1576671081837-49000212a370?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+              src="https://images.unsplash.com/photo-1576671081837-49000212a370?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=900"
               alt="Advanced microscopy laboratory with cell analysis equipment"
-              className="rounded-2xl shadow-2xl w-full h-auto"
+              className="rounded-2xl shadow-2xl w-full h-auto transform scale-125"
             />
           </div>
         </div>

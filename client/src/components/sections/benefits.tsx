@@ -83,7 +83,7 @@ export default function Benefits() {
             <CardContent className="p-8 text-center">
               <div className="text-4xl font-bold text-skopia-green mb-2">9+</div>
               <div className="text-lg font-semibold text-skopia-dark mb-4">Verticales Validados</div>
-              <p className="text-skopia-dark">Desde pharma hasta food-tech, nuestra solución responde a necesidades diversas de la industria.</p>
+              <p className="text-skopia-dark text-justify">Desde farmacéutica hasta biotecnología alimentaria, nuestra solución demuestra versatilidad y adaptabilidad en múltiples sectores industriales.</p>
             </CardContent>
           </Card>
           
@@ -91,7 +91,7 @@ export default function Benefits() {
             <CardContent className="p-8 text-center">
               <div className="text-4xl font-bold text-skopia-green mb-2">100%</div>
               <div className="text-lg font-semibold text-skopia-dark mb-4">Match con Pain Points</div>
-              <p className="text-skopia-dark">Todas las empresas entrevistadas confirmaron la necesidad de mejor monitoreo de bioprocesos.</p>
+              <p className="text-skopia-dark text-justify">Todas las empresas entrevistadas identificaron la necesidad crítica de mejorar el monitoreo y optimización de sus bioprocesos en tiempo real.</p>
             </CardContent>
           </Card>
           
@@ -99,7 +99,7 @@ export default function Benefits() {
             <CardContent className="p-8 text-center">
               <div className="text-4xl font-bold text-skopia-green mb-2">85%</div>
               <div className="text-lg font-semibold text-skopia-dark mb-4">Tasa de Interés</div>
-              <p className="text-skopia-dark">Alto interés en adopción temprana a través de todos los segmentos.</p>
+              <p className="text-skopia-dark text-justify">La mayoría de las empresas consultadas mostraron un alto interés en adoptar tempranamente nuestra tecnología, reconociendo su potencial transformador.</p>
             </CardContent>
           </Card>
         </div>
@@ -120,7 +120,7 @@ export default function Benefits() {
                       <div className="text-sm font-semibold text-skopia-green mb-2">{validation.vertical}</div>
                       <div className="font-semibold text-skopia-dark mb-1">{validation.company}</div>
                       <div className="text-sm text-gray-600 mb-3">{validation.contact}</div>
-                      <p className="text-skopia-dark text-sm italic">{validation.insight}</p>
+                      <p className="text-skopia-dark text-sm italic text-justify">{validation.insight}</p>
                     </CardContent>
                   </Card>
                 </CarouselItem>

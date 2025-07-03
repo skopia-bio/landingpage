@@ -18,11 +18,11 @@ export default function Contact() {
             <h3 className="text-2xl font-semibold text-skopia-dark mb-6">Get in Touch</h3>
             <div className="text-center">
               <a 
-                href="mailto:hello@skopiabiosystems.com" 
+                href="mailto:info@skopia.bio" 
                 className="text-xl text-skopia-green hover:text-skopia-dark flex items-center justify-center gap-3 transition-colors duration-200"
               >
                 <Mail className="h-6 w-6" />
-                hello@skopiabiosystems.com
+                info@skopia.bio
               </a>
             </div>
           </CardContent>

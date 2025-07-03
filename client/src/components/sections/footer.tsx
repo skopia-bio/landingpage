@@ -18,6 +18,7 @@ export default function Footer() {
             <p className="text-gray-400 mb-6 max-w-md">
               Empowering the next generation of biomanufacturing with AI-driven cellular intelligence and real-time process optimization.
             </p>
+            {/* Social media links temporarily disabled
             <div className="flex space-x-4">
               <a 
                 href="#" 
@@ -47,6 +48,7 @@ export default function Footer() {
                 </svg>
               </a>
             </div>
+            */}
           </div>
           
           <div>
@@ -71,7 +73,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 SKOPIA Biosystems. All rights reserved. | Privacy Policy | Terms of Service</p>
+          <p>&copy; 2025 SKOPIA Biosystems. All rights reserved. | Privacy Policy | Terms of Service</p>
         </div>
       </div>
     </footer>

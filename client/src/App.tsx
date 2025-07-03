@@ -28,7 +28,7 @@ function AppRouter() {
   return (
     <>
       <Route path="/" component={Home} />
-      <Route component={NotFound} />
+      <Route path="/:rest*" component={NotFound} />
     </>
   );
 }

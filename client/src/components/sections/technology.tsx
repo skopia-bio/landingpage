@@ -5,10 +5,10 @@ export default function Technology() {
     <section id="technology" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-ocellus-dark mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-skopia-dark mb-6">
             Why Cells Tell the Complete Story
           </h2>
-          <p className="text-xl text-ocellus-gray max-w-3xl mx-auto">
+          <p className="text-xl text-skopia-dark max-w-3xl mx-auto">
             While other approaches rely on indirect measurements, cellular imaging provides direct, 
             real-time insight into what's actually happening in your bioprocess.
           </p>
@@ -23,51 +23,51 @@ export default function Technology() {
             />
           </div>
           <div className="mt-8 lg:mt-0">
-            <h3 className="text-2xl font-bold text-ocellus-dark mb-6">The Cellular Advantage</h3>
-            <p className="text-lg text-ocellus-gray mb-6">
+            <h3 className="text-2xl font-bold text-skopia-dark mb-6">The Cellular Advantage</h3>
+            <p className="text-lg text-skopia-dark mb-6">
               Cells are the engines of fermentation. Their morphology, behavior, and health directly determine process outcomes. 
               Unlike genomic or metabolomic data that requires extensive processing, cellular signatures are available instantly.
             </p>
             
             <div className="space-y-4">
               <div className="flex items-center">
-                <Check className="h-5 w-5 text-ocellus-green mr-3" />
-                <span className="text-ocellus-gray">Direct measurement of cellular health and viability</span>
+                <Check className="h-5 w-5 text-skopia-green mr-3" />
+                <span className="text-skopia-dark">Direct measurement of cellular health and viability</span>
               </div>
               <div className="flex items-center">
-                <Check className="h-5 w-5 text-ocellus-green mr-3" />
-                <span className="text-ocellus-gray">Real-time metabolic activity indicators</span>
+                <Check className="h-5 w-5 text-skopia-green mr-3" />
+                <span className="text-skopia-dark">Real-time metabolic activity indicators</span>
               </div>
               <div className="flex items-center">
-                <Check className="h-5 w-5 text-ocellus-green mr-3" />
-                <span className="text-ocellus-gray">Early detection of stress and contamination</span>
+                <Check className="h-5 w-5 text-skopia-green mr-3" />
+                <span className="text-skopia-dark">Early detection of stress and contamination</span>
               </div>
               <div className="flex items-center">
-                <Check className="h-5 w-5 text-ocellus-green mr-3" />
-                <span className="text-ocellus-gray">Predictive insights for yield optimization</span>
+                <Check className="h-5 w-5 text-skopia-green mr-3" />
+                <span className="text-skopia-dark">Predictive insights for yield optimization</span>
               </div>
             </div>
           </div>
         </div>
         
         <div className="bg-gray-50 rounded-2xl p-8">
-          <h3 className="text-2xl font-bold text-ocellus-dark mb-8 text-center">Platform Capabilities</h3>
+          <h3 className="text-2xl font-bold text-skopia-dark mb-8 text-center">Platform Capabilities</h3>
           <div className="grid md:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="text-3xl font-bold text-ocellus-blue mb-2">24/7</div>
-              <div className="text-sm text-ocellus-gray">Continuous Monitoring</div>
+              <div className="text-3xl font-bold text-skopia-green mb-2">24/7</div>
+              <div className="text-sm text-skopia-dark">Continuous Monitoring</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-ocellus-blue mb-2">μm</div>
-              <div className="text-sm text-ocellus-gray">Sub-cellular Resolution</div>
+              <div className="text-3xl font-bold text-skopia-green mb-2">μm</div>
+              <div className="text-sm text-skopia-dark">Sub-cellular Resolution</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-ocellus-blue mb-2">&lt;1min</div>
-              <div className="text-sm text-ocellus-gray">Analysis Latency</div>
+              <div className="text-3xl font-bold text-skopia-green mb-2">&lt;1min</div>
+              <div className="text-sm text-skopia-dark">Analysis Latency</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-ocellus-blue mb-2">99.5%</div>
-              <div className="text-sm text-ocellus-gray">Prediction Accuracy</div>
+              <div className="text-3xl font-bold text-skopia-green mb-2">99.5%</div>
+              <div className="text-sm text-skopia-dark">Prediction Accuracy</div>
             </div>
           </div>
         </div>

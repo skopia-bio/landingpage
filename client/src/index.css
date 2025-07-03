@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Avenir';
+  src: url('/fonts/Avenir.woff2') format('woff2'),
+       url('/fonts/Avenir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('/fonts/Avenir-Medium.woff2') format('woff2'),
+       url('/fonts/Avenir-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('/fonts/Avenir-Heavy.woff2') format('woff2'),
+       url('/fonts/Avenir-Heavy.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --background: hsl(0, 0%, 100%);
   --foreground: hsl(210, 40%, 8%);
@@ -13,7 +40,7 @@
   --card-foreground: hsl(210, 40%, 8%);
   --border: hsl(214.3, 31.8%, 91.4%);
   --input: hsl(214.3, 31.8%, 91.4%);
-  --primary: hsl(207, 90%, 54%);
+  --primary: hsl(124, 72%, 32%);  /* #168E21 */
   --primary-foreground: hsl(210, 40%, 98%);
   --secondary: hsl(210, 40%, 96%);
   --secondary-foreground: hsl(215.4, 16.3%, 46.9%);
@@ -24,14 +51,10 @@
   --ring: hsl(215, 20.2%, 65.1%);
   --radius: 0.5rem;
   
-  /* Ocellus Brand Colors */
-  --ocellus-blue: hsl(207, 90%, 54%);
-  --ocellus-deep: hsl(216, 100%, 40%);
-  --ocellus-green: hsl(142, 69%, 58%);
-  --ocellus-light: hsl(207, 73%, 97%);
-  --ocellus-orange: hsl(14, 100%, 60%);
-  --ocellus-dark: hsl(210, 40%, 8%);
-  --ocellus-gray: hsl(215, 13.8%, 34.1%);
+  /* SKOPIA Brand Colors */
+  --skopia-green: hsl(124, 72%, 32%);  /* #168E21 */
+  --skopia-lime: hsl(84, 87%, 66%);    /* #CBF45F */
+  --skopia-dark: hsl(158, 55%, 22%);   /* #217055 */
 }
 
 .dark {
@@ -63,7 +86,7 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'Avenir', system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -74,79 +97,55 @@
 }
 
 @layer utilities {
-  .text-ocellus-blue {
-    color: hsl(207, 90%, 54%);
+  .text-skopia-green {
+    color: var(--skopia-green);
   }
   
-  .text-ocellus-deep {
-    color: hsl(216, 100%, 40%);
+  .text-skopia-lime {
+    color: var(--skopia-lime);
   }
   
-  .text-ocellus-green {
-    color: hsl(142, 69%, 58%);
+  .text-skopia-dark {
+    color: var(--skopia-dark);
   }
   
-  .text-ocellus-orange {
-    color: hsl(14, 100%, 60%);
+  .bg-skopia-green {
+    background-color: var(--skopia-green);
   }
   
-  .text-ocellus-dark {
-    color: hsl(210, 40%, 8%);
+  .bg-skopia-lime {
+    background-color: var(--skopia-lime);
   }
   
-  .text-ocellus-gray {
-    color: hsl(215, 13.8%, 34.1%);
+  .bg-skopia-dark {
+    background-color: var(--skopia-dark);
   }
   
-  .bg-ocellus-blue {
-    background-color: hsl(207, 90%, 54%);
+  .border-skopia-green {
+    border-color: var(--skopia-green);
   }
   
-  .bg-ocellus-deep {
-    background-color: hsl(216, 100%, 40%);
+  .hover\:bg-skopia-dark:hover {
+    background-color: var(--skopia-dark);
   }
   
-  .bg-ocellus-green {
-    background-color: hsl(142, 69%, 58%);
+  .hover\:text-skopia-green:hover {
+    color: var(--skopia-green);
   }
   
-  .bg-ocellus-light {
-    background-color: hsl(207, 73%, 97%);
-  }
-  
-  .bg-ocellus-orange {
-    background-color: hsl(14, 100%, 60%);
-  }
-  
-  .bg-ocellus-dark {
-    background-color: hsl(210, 40%, 8%);
-  }
-  
-  .border-ocellus-blue {
-    border-color: hsl(207, 90%, 54%);
-  }
-  
-  .hover\:bg-ocellus-deep:hover {
-    background-color: hsl(216, 100%, 40%);
-  }
-  
-  .hover\:text-ocellus-blue:hover {
-    color: hsl(207, 90%, 54%);
-  }
-  
-  .hover\:text-ocellus-deep:hover {
-    color: hsl(216, 100%, 40%);
+  .hover\:text-skopia-dark:hover {
+    color: var(--skopia-dark);
   }
   
   .gradient-hero {
-    background: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(207, 73%, 97%) 50%, hsl(0, 0%, 100%) 100%);
+    background: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(84, 87%, 96%) 50%, hsl(0, 0%, 100%) 100%);
   }
   
   .gradient-solution {
-    background: linear-gradient(90deg, hsl(207, 73%, 97%) 0%, hsl(0, 0%, 100%) 100%);
+    background: linear-gradient(90deg, hsl(84, 87%, 96%) 0%, hsl(0, 0%, 100%) 100%);
   }
   
   .gradient-benefits {
-    background: linear-gradient(135deg, hsl(207, 73%, 97%) 0%, hsl(0, 0%, 100%) 100%);
+    background: linear-gradient(135deg, hsl(84, 87%, 96%) 0%, hsl(0, 0%, 100%) 100%);
   }
 }

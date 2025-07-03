@@ -10,8 +10,8 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center mb-4">
               <img 
-                src={`${base}images/logo-gradiente.png`}
-                alt="Ocellus Biotech Logo" 
+                src={`${base}images/logo_color.png`}
+                alt="SKOPIA Biosystems Logo" 
                 className="h-8 w-auto mr-3 brightness-0 invert"
               />
             </div>
@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Ocellus Biotech. All rights reserved. | Privacy Policy | Terms of Service</p>
+          <p>&copy; 2025 SKOPIA Biosystems. All rights reserved. | Privacy Policy | Terms of Service</p>
         </div>
       </div>
     </footer>

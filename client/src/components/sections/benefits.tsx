@@ -12,56 +12,47 @@ export default function Benefits() {
     {
       vertical: "Pharma (CDMO)",
       company: "mAbxience",
-      contact: "Esteban Corley",
-      insight: "We needed to automate cell monitoring. The manual process with Vi-Cell is tedious and prevents us from making real-time decisions."
+      contact: "Esteban Corley"
     },
     {
       vertical: "Pharma (CDMO)",
       company: "AGC Biologics",
-      contact: "Lucas Bukata",
-      insight: "We needed a label-free solution that allows us to monitor the culture without interfering with the process."
+      contact: "Lucas Bukata"
     },
     {
       vertical: "Bio-industrials",
       company: "Inmet",
-      contact: "Gustavo Schujman",
-      insight: "We needed to predict production and better understand process dynamics to optimize our yields."
+      contact: "Gustavo Schujman"
     },
     {
       vertical: "Enzymes",
       company: "Keclon",
-      contact: "Hugo Menzella",
-      insight: "We needed a cellular fingerprinting tool for quality control and fraud prevention in our production."
+      contact: "Hugo Menzella"
     },
     {
       vertical: "Foodtech (scale-up)",
       company: "Enifer",
-      contact: "Simo Ellilä",
-      insight: "We needed to understand the correlation between cell morphology and product quality to improve our scale-up."
+      contact: "Simo Ellilä"
     },
     {
       vertical: "Bioplastics",
       company: "Inmet Bio",
-      contact: "Leandro Nakamatsu",
-      insight: "We needed to detect and identify contaminants early to avoid losing entire batches."
+      contact: "Leandro Nakamatsu"
     },
     {
       vertical: "Flavors",
       company: "Evodia Bio",
-      contact: "Nicolás Drocchi",
-      insight: "We needed to determine the optimal fermentation end-point to maximize yield."
+      contact: "Nicolás Drocchi"
     },
     {
       vertical: "Bio-tools",
       company: "Cytoem",
-      contact: "R. Cantero & H. Cantiello",
-      insight: "We needed a solution that integrates with our existing products to offer more comprehensive analysis."
+      contact: "R. Cantero & H. Cantiello"
     },
     {
       vertical: "Pharma",
       company: "Biosinaptica",
-      contact: "Ricardo Kratje",
-      insight: "We needed a CHO cell culture-specific health monitoring system that alerts us to problems early."
+      contact: "Ricardo Kratje"
     }
   ];
 
@@ -120,7 +111,6 @@ export default function Benefits() {
                       <div className="text-sm font-semibold text-skopia-green mb-2">{validation.vertical}</div>
                       <div className="font-semibold text-skopia-dark mb-1">{validation.company}</div>
                       <div className="text-sm text-gray-600 mb-3">{validation.contact}</div>
-                      <p className="text-skopia-dark text-sm italic text-justify">{validation.insight}</p>
                     </CardContent>
                   </Card>
                 </CarouselItem>

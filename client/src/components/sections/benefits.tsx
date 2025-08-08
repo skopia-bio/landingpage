@@ -1,24 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
 
 export default function Benefits() {
-  const marketValidations = [
-    { vertical: "Pharma (CDMO)" },
-    { vertical: "Pharma (CDMO)" },
-    { vertical: "Bio-industrials" },
-    { vertical: "Enzymes" },
-    { vertical: "Foodtech (scale-up)" },
-    { vertical: "Bioplastics" },
-    { vertical: "Flavors" },
-    { vertical: "Bio-tools" },
-    { vertical: "Pharma" }
-  ];
+  
 
   return (
     <section id="benefits" className="py-20 gradient-benefits">
@@ -58,30 +41,7 @@ export default function Benefits() {
             </CardContent>
           </Card>
         </div>
-        
-        <div className="relative px-12">
-          <Carousel
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-            className="w-full"
-          >
-            <CarouselContent className="-ml-2 md:-ml-4">
-              {marketValidations.map((validation, index) => (
-                <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/3">
-                  <Card className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-                    <CardContent className="p-6">
-                      <div className="text-sm font-semibold text-skopia-green mb-2">{validation.vertical}</div>
-                    </CardContent>
-                  </Card>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious className="absolute -left-2 top-1/2 -translate-y-1/2" />
-            <CarouselNext className="absolute -right-2 top-1/2 -translate-y-1/2" />
-          </Carousel>
-        </div>
+
       </div>
     </section>
   );

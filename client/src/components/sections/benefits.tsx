@@ -9,51 +9,15 @@ import {
 
 export default function Benefits() {
   const marketValidations = [
-    {
-      vertical: "Pharma (CDMO)",
-      company: "mAbxience",
-      contact: "Esteban Corley"
-    },
-    {
-      vertical: "Pharma (CDMO)",
-      company: "AGC Biologics",
-      contact: "Lucas Bukata"
-    },
-    {
-      vertical: "Bio-industrials",
-      company: "Inmet",
-      contact: "Gustavo Schujman"
-    },
-    {
-      vertical: "Enzymes",
-      company: "Keclon",
-      contact: "Hugo Menzella"
-    },
-    {
-      vertical: "Foodtech (scale-up)",
-      company: "Enifer",
-      contact: "Simo Ellilä"
-    },
-    {
-      vertical: "Bioplastics",
-      company: "Inmet Bio",
-      contact: "Leandro Nakamatsu"
-    },
-    {
-      vertical: "Flavors",
-      company: "Evodia Bio",
-      contact: "Nicolás Drocchi"
-    },
-    {
-      vertical: "Bio-tools",
-      company: "Cytoem",
-      contact: "R. Cantero & H. Cantiello"
-    },
-    {
-      vertical: "Pharma",
-      company: "Biosinaptica",
-      contact: "Ricardo Kratje"
-    }
+    { vertical: "Pharma (CDMO)" },
+    { vertical: "Pharma (CDMO)" },
+    { vertical: "Bio-industrials" },
+    { vertical: "Enzymes" },
+    { vertical: "Foodtech (scale-up)" },
+    { vertical: "Bioplastics" },
+    { vertical: "Flavors" },
+    { vertical: "Bio-tools" },
+    { vertical: "Pharma" }
   ];
 
   return (
@@ -109,8 +73,6 @@ export default function Benefits() {
                   <Card className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow">
                     <CardContent className="p-6">
                       <div className="text-sm font-semibold text-skopia-green mb-2">{validation.vertical}</div>
-                      <div className="font-semibold text-skopia-dark mb-1">{validation.company}</div>
-                      <div className="text-sm text-gray-600 mb-3">{validation.contact}</div>
                     </CardContent>
                   </Card>
                 </CarouselItem>
